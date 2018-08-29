@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-core-ui-28.0.0-rc02">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/7e5f47b5f0cd76b4717e32b570db9802/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/7e5f47b5f0cd76b4717e32b570db9802/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/785827be947e3c578a6bc8fdcda918a0/res" />
+      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/785827be947e3c578a6bc8fdcda918a0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

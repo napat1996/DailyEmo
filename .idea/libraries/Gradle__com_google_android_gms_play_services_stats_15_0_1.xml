@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-stats-15.0.1">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/5d1df77f8c8cfcb77bc47742037a17ec/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/5d1df77f8c8cfcb77bc47742037a17ec/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/ca93c8819ee64a0e391d2edc868bf86c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/ca93c8819ee64a0e391d2edc868bf86c/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

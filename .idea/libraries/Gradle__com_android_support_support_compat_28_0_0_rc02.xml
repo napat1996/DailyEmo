@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-compat-28.0.0-rc02">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/4ba198c5d1d4c5a20f3d7e609d7bd75d/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/4ba198c5d1d4c5a20f3d7e609d7bd75d/res" />
+      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/d99de723a5a0984c3e00a65a6577c282/res" />
+      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/d99de723a5a0984c3e00a65a6577c282/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
