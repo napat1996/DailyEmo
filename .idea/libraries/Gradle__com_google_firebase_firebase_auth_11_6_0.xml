@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-auth-11.6.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/d1ac5e071be837f40caa60382994c24e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/d1ac5e071be837f40caa60382994c24e/res" />
+      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/6702e2dd26f278d17d5c378432ab08a6/res" />
+      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/6702e2dd26f278d17d5c378432ab08a6/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

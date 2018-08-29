@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: android.arch.core:runtime-1.1.1">
     <CLASSES>
-      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.1.1.aar/eb47636c44f136661a86695bd5c37dec/res" />
-      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.1.1.aar/eb47636c44f136661a86695bd5c37dec/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a01740fa38552c883f5694f3dc91c786/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a01740fa38552c883f5694f3dc91c786/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

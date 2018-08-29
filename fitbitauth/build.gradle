@@ -26,15 +26,17 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.google.code.gson:gson:2.+'
+    implementation 'com.google.code.gson:gson:2.8.0'
     implementation project(':fitbitcommon')
 
-    implementation 'com.android.support:recyclerview-v7:28.+'
+    //implementation 'com.android.support:recyclerview-v7:28'
 
-    compileOnly group: 'commons-codec', name: 'commons-codec', version: '1.+'
+    compileOnly group: 'commons-codec', name: 'commons-codec', version: '1.6'
 
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.+', {
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
-    })
+    }
 }
