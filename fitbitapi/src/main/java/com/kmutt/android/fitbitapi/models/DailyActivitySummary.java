@@ -1,16 +1,17 @@
 package com.kmutt.android.fitbitapi.models;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class DailyActivitySummary {
-    @SerializedName("activities")
+
     @Expose
     private List<Object> activities = new ArrayList<Object>();
-    @SerializedName("goals")
     @Expose
     private Goals goals;
-    @SerializedName("summary")
     @Expose
     private Summary summary;
 

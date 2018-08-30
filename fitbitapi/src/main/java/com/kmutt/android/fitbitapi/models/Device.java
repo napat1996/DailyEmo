@@ -1,20 +1,18 @@
 package com.kmutt.android.fitbitapi.models;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class Device {
 
-    @SerializedName("battery")
     @Expose
     private String battery;
-    @SerializedName("deviceVersion")
     @Expose
     private String deviceVersion;
-    @SerializedName("id")
     @Expose
     private String id;
-    @SerializedName("lastSyncTime")
     @Expose
     private String lastSyncTime;
-    @SerializedName("type")
     @Expose
     private String type;
 
