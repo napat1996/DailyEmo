@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support.test.espresso:espresso-core-3.0.2">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/espresso-core-3.0.2.aar/72c2f6dbf1c58b0cc5265c277b2e2238/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/espresso-core-3.0.2.aar/72c2f6dbf1c58b0cc5265c277b2e2238/res" />
+      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/espresso-core-3.0.2.aar/f25b9157fbf2a26bc93ba7f445a5e6cd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/espresso-core-3.0.2.aar/f25b9157fbf2a26bc93ba7f445a5e6cd/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
