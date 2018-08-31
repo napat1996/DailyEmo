@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
-        minSdkVersion 23
-        targetSdkVersion 28
+        minSdkVersion 16
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
 
@@ -26,17 +26,15 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.google.code.gson:gson:2.+'
     implementation project(':fitbitcommon')
 
-    //implementation 'com.android.support:recyclerview-v7:28'
+    implementation 'com.android.support:recyclerview-v7:27.+'
 
-    compileOnly group: 'commons-codec', name: 'commons-codec', version: '1.6'
+    compileOnly group: 'commons-codec', name: 'commons-codec', version: '1.+'
 
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2', {
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.+', {
         exclude group: 'com.android.support', module: 'support-annotations'
-    }
+    })
 }
