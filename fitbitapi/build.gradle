@@ -26,8 +26,10 @@ dependencies {
     implementation project(':fitbitauth')
     implementation project(':fitbitcommon')
 
-    implementation 'com.android.support:recyclerview-v7:27.+'
-    implementation 'com.android.support:design:23.+'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    //implementation 'com.android.support:animeted-vector-drawable:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
 
-    testImplementation 'junit:junit:4.+'
+    testImplementation 'junit:junit:4.12'
 }
