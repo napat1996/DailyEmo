@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:versionedparcelable-28.0.0-rc02">
     <CLASSES>
-      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/c0ad7cefe9b2cee72c93ed430d0e6af4/res" />
-      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/c0ad7cefe9b2cee72c93ed430d0e6af4/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/e2f0a472a2827d2c3ee889462c705c63/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/e2f0a472a2827d2c3ee889462c705c63/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

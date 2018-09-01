@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:documentfile-28.0.0-rc02">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/6e89336127d32d6ffa520da961c6f29c/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/6e89336127d32d6ffa520da961c6f29c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/a57a92b7a96f5c971e6e4ac2496612e6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/a57a92b7a96f5c971e6e4ac2496612e6/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

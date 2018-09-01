@@ -3,7 +3,6 @@ package com.fitbit.api.models;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-
 public class Activities {
 
     @SerializedName("best")
