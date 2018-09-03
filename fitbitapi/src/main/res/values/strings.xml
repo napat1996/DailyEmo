@@ -1,8 +1,6 @@
 <resources>
-<<<<<<< Updated upstream
-    <string name="app_name">Fitbit API</string>
-=======
-    <string name="app_name">fitbitapi</string>
+
+   <string name="app_name">fitbitapi</string>
 
 >>>>>>> Stashed changes
 </resources>

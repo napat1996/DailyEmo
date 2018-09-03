@@ -9,9 +9,6 @@ import com.fitbit.authentication.Scope;
 import android.app.Activity;
 import android.support.annotation.RestrictTo;
 
-import com.kmutt.android.fitbitapi.exception.MissingScopesException;
-import com.kmutt.android.fitbitapi.exception.TokenExpiredException;
-
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -21,8 +18,8 @@ import java.util.Set;
  */
 public class APIUtils {
 
-    public static void validateToken(Activity contextActivity, AccessToken accessToken, RestrictTo.Scope... scopes) throws MissingScopesException, TokenExpiredException {
-        Set<RestrictTo.Scope> requiredScopes = new HashSet<>(Arrays.asList(scopes));
+    public static void validateToken(Activity contextActivity, AccessToken accessToken,Scope... scopes) throws MissingScopesException, TokenExpiredException {
+        Set<Scope> requiredScopes = new HashSet<>(Arrays.asList(scopes));
 
         requiredScopes.removeAll(accessToken.getScopes());
 
