@@ -14,8 +14,8 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.fitbit.api.loaders.ResourceLoaderResult;
-import com.fitbit.sampleandroidoauth2.R;
-import com.fitbit.sampleandroidoauth2.databinding.LayoutInfoBinding;
+import com.kmutt.android.dailyemo.R;
+//import com.fitbit.sampleandroidoauth2.databinding.LayoutInfoBinding;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;
@@ -31,22 +31,22 @@ import java.util.Locale;
  */
 
 public abstract class InfoFragment<T> extends Fragment implements LoaderManager.LoaderCallbacks<ResourceLoaderResult<T>>, SwipeRefreshLayout.OnRefreshListener {
-    protected LayoutInfoBinding binding;
+//    protected LayoutInfoBinding binding;
 
     protected final String TAG = getClass().getSimpleName();
 
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        binding = DataBindingUtil.inflate(inflater, R.layout.layout_info, container, false);
-
-        binding.setTitleText(getTitleResourceId());
-        setMainText(getActivity().getString(R.string.no_data));
-        binding.swipeRefreshLayout.setOnRefreshListener(this);
-        binding.setLoading(true);
-
-        return binding.getRoot();
-    }
+//    @Nullable
+//    @Override
+//    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+//        binding = DataBindingUtil.inflate(inflater, R.layout.layout_info, container, false);
+//
+//        binding.setTitleText(getTitleResourceId());
+//        setMainText(getActivity().getString(R.string.no_data));
+//        binding.swipeRefreshLayout.setOnRefreshListener(this);
+//        binding.setLoading(true);
+//
+//        return binding.getRoot();
+//    }
 
 
     @Override
@@ -56,20 +56,20 @@ public abstract class InfoFragment<T> extends Fragment implements LoaderManager.
 
     }
 
-    @Override
-    public void onLoadFinished(Loader<ResourceLoaderResult<T>> loader, ResourceLoaderResult<T> data) {
-        binding.swipeRefreshLayout.setRefreshing(false);
-        binding.setLoading(false);
-        switch (data.getResultType()) {
-            case ERROR:
-                Toast.makeText(getActivity(), R.string.error_loading_data, Toast.LENGTH_LONG).show();
-                break;
-            case EXCEPTION:
-                Log.e(TAG, "Error loading data", data.getException());
-                Toast.makeText(getActivity(), R.string.error_loading_data, Toast.LENGTH_LONG).show();
-                break;
-        }
-    }
+//    @Override
+//    public void onLoadFinished(Loader<ResourceLoaderResult<T>> loader, ResourceLoaderResult<T> data) {
+//        binding.swipeRefreshLayout.setRefreshing(false);
+//        binding.setLoading(false);
+//        switch (data.getResultType()) {
+//            case ERROR:
+//                Toast.makeText(getActivity(), R.string.error_loading_data, Toast.LENGTH_LONG).show();
+//                break;
+//            case EXCEPTION:
+//                Log.e(TAG, "Error loading data", data.getException());
+//                Toast.makeText(getActivity(), R.string.error_loading_data, Toast.LENGTH_LONG).show();
+//                break;
+//        }
+//    }
 
     public abstract int getTitleResourceId();
 
@@ -129,8 +129,8 @@ public abstract class InfoFragment<T> extends Fragment implements LoaderManager.
         }
     }
 
-    protected void setMainText(String text) {
-        binding.webview.loadData(text, "text/html", "UTF-8");
-    }
+//    protected void setMainText(String text) {
+//        binding.webview.loadData(text, "text/html", "UTF-8");
+//    }
 
 }

@@ -5,9 +5,9 @@
     tools:context="com.fitbit.sampleandroidoauth2.RootActivity">
 
     <data>
-        <variable
-            name="user"
-            type="com.fitbit.api.models.User"/>
+        <!--<variable-->
+            <!--name="user"-->
+            <!--type="com.fitbit.api.models.User"/>-->
 
         <variable
             name="loading"
@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:visibility="@{loading ? View.GONE : View.VISIBLE}">
+            android:visibility="visible">
 
             <android.support.v4.view.ViewPager
                 android:id="@+id/viewPager"
@@ -59,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:visibility="@{loading ? View.VISIBLE : View.GONE}">
+            android:visibility="visible">
 
             <ProgressBar
                 android:id="@+id/progressBar"
