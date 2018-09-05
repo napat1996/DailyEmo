@@ -54,8 +54,8 @@ public class FitbitAuthApplication extends Application {
             Bundle bundle = ai.metaData;
 
             // Load clientId and redirectUrl from application manifest
-            String clientId = bundle.getString("com.fitbit.sampleandroidoauth2.CLIENT_ID");
-            String redirectUrl = bundle.getString("com.fitbit.sampleandroidoauth2.REDIRECT_URL");
+            String clientId = bundle.getString("com.kmutt.android.dailyemo.CLIENT_ID");
+            String redirectUrl = bundle.getString("com.kmutt.android.dailyemo.REDIRECT_URL");
 
 
             ClientCredentials CLIENT_CREDENTIALS = new ClientCredentials(clientId, CLIENT_SECRET, redirectUrl);

@@ -13,7 +13,7 @@ import com.fitbit.authentication.AuthenticationHandler;
 import com.fitbit.authentication.AuthenticationManager;
 import com.fitbit.authentication.AuthenticationResult;
 import com.fitbit.authentication.Scope;
-import com.fitbit.sampleandroidoauth2.databinding.ActivityRootBinding;
+import com.kmutt.android.dailyemo.databinding.ActivityRootBinding;
 
 import java.util.Set;
 

@@ -7,11 +7,11 @@ import android.support.v13.app.FragmentPagerAdapter;
 
 import com.fitbit.authentication.AuthenticationManager;
 import com.fitbit.authentication.Scope;
-import com.fitbit.sampleandroidoauth2.fragments.ActivitiesFragment;
-import com.fitbit.sampleandroidoauth2.fragments.DeviceFragment;
-import com.fitbit.sampleandroidoauth2.fragments.InfoFragment;
-import com.fitbit.sampleandroidoauth2.fragments.ProfileFragment;
-import com.fitbit.sampleandroidoauth2.fragments.WeightLogFragment;
+import com.kmutt.android.dailyemo.fragments.ActivitiesFragment;
+import com.kmutt.android.dailyemo.fragments.DeviceFragment;
+import com.kmutt.android.dailyemo.fragments.InfoFragment;
+import com.kmutt.android.dailyemo.fragments.ProfileFragment;
+import com.kmutt.android.dailyemo.fragments.WeightLogFragment;
 
 import java.util.ArrayList;
 import java.util.List;

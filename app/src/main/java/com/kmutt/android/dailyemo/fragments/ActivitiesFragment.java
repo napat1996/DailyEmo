@@ -3,6 +3,13 @@ package com.kmutt.android.dailyemo.fragments;
 import android.content.Loader;
 import android.os.Bundle;
 
+import com.fitbit.api.loaders.ResourceLoaderResult;
+import com.fitbit.api.models.DailyActivitySummary;
+import com.fitbit.api.models.Goals;
+import com.fitbit.api.models.Summary;
+import com.fitbit.api.services.ActivityService;
+import com.kmutt.android.dailyemo.R;
+
 import java.util.Date;
 
 public class ActivitiesFragment extends InfoFragment<DailyActivitySummary> {

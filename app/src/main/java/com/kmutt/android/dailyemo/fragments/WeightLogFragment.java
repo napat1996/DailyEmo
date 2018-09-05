@@ -11,7 +11,7 @@ import com.fitbit.api.loaders.ResourceLoaderResult;
 import com.fitbit.api.models.Weight;
 import com.fitbit.api.models.WeightLogs;
 import com.fitbit.api.services.WeightService;
-import com.fitbit.sampleandroidoauth2.R;
+import com.kmutt.android.dailyemo.R;
 import com.jjoe64.graphview.helper.DateAsXAxisLabelFormatter;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;

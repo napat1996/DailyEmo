@@ -8,7 +8,7 @@ import com.fitbit.api.loaders.ResourceLoaderResult;
 import com.fitbit.api.models.User;
 import com.fitbit.api.models.UserContainer;
 import com.fitbit.api.services.UserService;
-import com.fitbit.sampleandroidoauth2.R;
+import com.kmutt.android.dailyemo.R;
 
 /**
  * Created by jboggess on 10/17/16.

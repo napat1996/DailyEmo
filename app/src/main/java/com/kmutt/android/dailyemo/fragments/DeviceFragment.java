@@ -7,7 +7,7 @@ import android.os.Bundle;
 import com.fitbit.api.loaders.ResourceLoaderResult;
 import com.fitbit.api.models.Device;
 import com.fitbit.api.services.DeviceService;
-import com.fitbit.sampleandroidoauth2.R;
+import com.kmutt.android.dailyemo.R;
 
 /**
  * Created by jboggess on 10/17/16.

@@ -11,7 +11,7 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 
 import com.fitbit.authentication.AuthenticationManager;
-import com.fitbit.sampleandroidoauth2.databinding.ActivityUserDataBinding;
+import com.kmutt.android.dailyemo.databinding.ActivityUserDataBinding;
 
 public class UserDataActivity extends Activity {
 
