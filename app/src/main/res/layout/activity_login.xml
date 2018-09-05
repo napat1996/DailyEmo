@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/bg"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/inputUsername"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile" />
+
+    <EditText
+        android:id="@+id/inputUsername"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/inputPassword"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_email_24dp"
+        android:ems="10"
+        android:hint="USERNAME"
+        android:inputType="textPersonName"
+        android:textColorHint="#ffff" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_lock_24dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:textColorHint="#ffff" />
+
+    <Button
+        android:id="@+id/log_in_button"
+        android:layout_width="103dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/rounded_button"
+        android:elevation="0dp"
+        android:text="LOG IN"
+        android:textColor="#4789E8"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/createNewAccount"
+        android:layout_width="204dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/rounded_button"
+        android:text="CREATE A NEW ACCOUNT"
+        android:textColor="#4789E8"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="156dp"
+        android:text="Forgot your password?"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>
+

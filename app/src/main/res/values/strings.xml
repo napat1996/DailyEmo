@@ -68,4 +68,5 @@
         again later.
     </string>
     <string name="logout" />
+    <string name="title_activity_signup">Sign in</string>
 </resources>
