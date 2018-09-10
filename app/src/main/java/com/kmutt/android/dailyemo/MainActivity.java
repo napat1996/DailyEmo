@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.Button;
 
 import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -51,20 +50,13 @@ public class MainActivity extends AppCompatActivity {
                     urlConnection.setDoOutput(true);
                     urlConnection.setChunkedStreamingMode(0);
 
-                    OutputStream out = new BufferedOutputStream(urlConnection.getOutputStream());
-                    writeStream(out);
-
                     InputStream in = new BufferedInputStream(urlConnection.getInputStream());
-                    readStream(in);
+                    String result = readStream(in);
                 } catch (IOException e) {
                     e.printStackTrace();
                 } finally {
                     urlConnection.disconnect();
                 }
-//
-//                HttpClient http = client.get("https://api.fitbit.com/1/user/6TJZXF/activities/heart/date/today/6m.json");
-//                JSONData response = JsonParser.parse(http);
-//                System.out.println(response.rows[1].elements[1].distance.text);
             }
         });
     }
@@ -77,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 bo.write(i);
                 i = in.read();
             }
+//            String readString = bo.String()
             return bo.toString();
         } catch (IOException e) {
             return "";

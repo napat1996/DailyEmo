@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: android.arch.lifecycle:viewmodel-1.1.1">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9fa7f0d9f4e487f60f0b7d2d3a232243/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9fa7f0d9f4e487f60f0b7d2d3a232243/res" />
+      <root url="file://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/392fea611348b49da6cfeec2dc478755/res" />
+      <root url="jar://$USER_HOME$/Desktop/Step-Counter-Android-Example-App-master/gradle/gradle-3.3/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/392fea611348b49da6cfeec2dc478755/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
